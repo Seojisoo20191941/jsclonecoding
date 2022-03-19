@@ -58,3 +58,4 @@ if(isNaN(age)){
 
 }
 const ageScan=parseInt(prompt("How old?")) //prompt 입력받음
+
