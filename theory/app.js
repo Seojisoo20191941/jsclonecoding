@@ -41,3 +41,20 @@ const sum={
 };
 
 let plus=sum.a(1,2);
+
+//type
+const age=24;
+console.log(typeof age); //number라고 나옴. 
+parseInt("24"); //숫자로 바꿔줌.
+
+//NaN 확인하기
+isNaN(age); //true, false로 나옴.
+
+if(isNaN(age)){
+
+}else if(age<18 && isNaN(age)){ //&& || 사용
+
+}else{
+
+}
+const ageScan=parseInt(prompt("How old?")) //prompt 입력받음
